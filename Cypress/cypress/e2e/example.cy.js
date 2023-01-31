@@ -6,9 +6,9 @@ describe('Wikipedia', () => {
   })
 
   it('Checks that I can find the Platypus page on the English Wikipedia', () => {
-    // go to the English Wikipedia page
+    cy.log('go to the English Wikipedia page')
     cy.visit(urls.englishUrl)
-    // check that the page is in English
+    cy.log('check that the page is in English')
     cy.get(welkomsttekst).contains('Welcome to')
     // search for the Platypus
     cy.get(zoekveld).type('Platypus')

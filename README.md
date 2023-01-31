@@ -18,3 +18,5 @@ Conclusie: installatie en draaien van de eerste test is gemakkelijker en gebruik
 Bouwen in Cypress gaat redelijk, de shoulds zijn niet altijd even intuitief. Na het draaien blijft
 Cypress het einde van je test in beeld houden. Alle losse stappen kunnen teruggekeken worden en dan kun je precies zien wat op dat moment de staat van het testobject was. Wel duurt het wat langer om Cypress op te starten. Eigenlijk moet je dit tussendoor ook niet afsluiten, maar tijdens het bouwen van je tests open laten staan. Bij wijzigingen zal hij dan opnieuw je suite gaan draaien.
 
+Testcafe heeft als standaardgedrag dat de test stopt als er iets mis gaat. Daarna heb je consoleoutput waarin staat wat er verkeerd gaat.  --debug-on-fail meegeven aan de commandline zorgt dat je naar debugmodus gaat als de test faalt.
+Testcafe plaatst de click/typeText/expect als eerste en de selectors pas daarna. Daardoor zie je sneller wat er nou eigenlijk gedaan wordt. Wel is het iets minder intuitief om te zien welke selector er nou geraakt wordt. En eql is minder leesbaar dan should.haveText.

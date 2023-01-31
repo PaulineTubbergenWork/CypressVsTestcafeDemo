@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "tc:e2e": "testcafe chrome testcafe/e2e/example.js --hostname localhost"
+  },
   "dependencies": {
     "testcafe": "^2.3.0"
   }

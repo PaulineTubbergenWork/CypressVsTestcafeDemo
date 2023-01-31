@@ -11,4 +11,5 @@ export const zoeken = {
 }
 
 export const welkomsttekst = Selector('span.mw-headline')
+export const welkomsttekstTikfout = Selector('span.mh-headline')
 export const titeltekst = Selector('h1.firstHeading > span')

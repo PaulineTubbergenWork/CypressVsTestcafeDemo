@@ -3,6 +3,6 @@
     "tc:e2e": "testcafe chrome testcafe/e2e/example.js --hostname localhost --debug-on-fail"
   },
   "dependencies": {
-    "testcafe": "^2.3.0"
+    "testcafe": "^3.3.0"
   }
 }
